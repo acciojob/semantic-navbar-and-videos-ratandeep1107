@@ -1,2 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 229, 229);
+}
+.container{
+    background: linear-gradient(190deg, rgb(106, 112, 224), rgb(67, 15, 101));
+    top: 0;
+    padding: 10px 50px 10px 30px;
+    opacity: 0.85;
+}
 
-/* Your CSS Code here. */
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    
+}
+.nav-list li{
+    padding: 0px 20px 0px 20px;
+}
+.nav-list li a{
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.random-vid{
+    margin: 30px 0 30px 30px;
+    padding: 10px;
+}
+.head{
+    text-align: center;
+    color: rgb(89, 4, 30);
+    font-size: 60px;
+}
+.vid{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px 0 100px;
+}
